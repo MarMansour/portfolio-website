@@ -74,12 +74,26 @@ position: absolute;
 bottom: 0;
 }
 
-.image-hover:hover {
-  padding: 2em;
-  background-color: #ccc .2;
+.image-hover {
+  transition: 1s;
 }
 
-.branding .typography .packaging svg{
+.image-hover:hover {
+  padding: 3em;
+  background-color: ;
+}
+
+.branding svg{
+  max-width: 100%;
+  fill: #ccc;
+}
+
+.typography svg{
+  max-width: 100%;
+  fill: #ccc;
+}
+
+.packaging svg{
   max-width: 100%;
   fill: #ccc;
 }
@@ -88,6 +102,25 @@ bottom: 0;
   text-align: right;
 }
 
-nav {
+.about svg{
+  max-width: 100%;
+  fill: #ccc;
+}
 
+.about-name svg{
+  fill: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+ul li a {
+  transition: 1s;
+}
+
+ul li a:hover {
+  color: #477E87;
+}
+
+footer {
+  color: #ccc;
 }
