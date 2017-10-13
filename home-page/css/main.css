@@ -113,6 +113,51 @@ bottom: 0;
   height: 100%;
 }
 
+.contact svg {
+  max-width: 100%;
+  fill: #ccc;
+}
+
+.contact {
+  text-align: right;
+}
+
+.btn {
+  animation: btn 20s infinite;
+  border: none;
+  padding: .25em;
+}
+
+@keyframes btn {
+
+  0% {
+    background-color: #1B3034;
+  }
+
+  25% {
+    background-color: #AECED3;
+  }
+
+  50% {
+    background-color: #60ACB9;
+  }
+
+  75% {
+    background-color: #477E87;
+  }
+
+  100% {
+    background-color: #3C4748;
+  }
+
+}
+
+.description {
+  display: inline-block;
+  text-align: left;
+  margin: none;
+}
+
 ul li a {
   transition: 1s;
 }
