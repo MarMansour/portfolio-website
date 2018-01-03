@@ -76,11 +76,32 @@ bottom: 0;
 
 .image-hover {
   transition: 1s;
+  display: block;
+  position: relative;
 }
 
-.image-hover:hover {
-  padding: 3em;
-  background-color: ;
+.image-hover-overlay {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+
+}
+
+.image-hover:hover  .image-hover-overlay{
+  background-color: #fff;
+  opacity: .5;
+}
+
+.image-hover:hover  .image-hover-frame{
+  transition: 0.5s;
+  transform: scale(.8);
+}
+
+.image-hover:hover img {
+  transform: scale(2);
 }
 
 .branding svg{
